@@ -1,13 +1,13 @@
-S=0
-i=0
-while True:
-    n=int(input('Enter n:'))
-    if n==0 and i==0:
-        print('Error!')
+so=0
+tong=0
+while True :
+    n=int(input('nhập vào số nguyên:'))
+    if n==0 and so==0 :
+        print('Lỗi .')
         break
-    if n==0:
+    if n==0 :
         break
-    S+=n
-    i+=1
-if i!=0:
-    print('the average of a collection of values entered :',S/i)
+    so=so+1
+    tong=tong+n   
+if so!=0 :
+    print(tong/so)
