@@ -3,6 +3,6 @@ reverse=""
 for i in string:
     reverse=i+reverse
 if reverse==string:
-    print(f'{reverse} is a palindrome string')
+    print(f'{string} is a palindrome string')
 else:
-     print(f'{reverse} is not a palindrome string')
+     print(f'{string} is not a palindrome string')
